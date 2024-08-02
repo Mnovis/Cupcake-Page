@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 :root {
     font-family: "Alice", serif;
     line-height: 150%;
@@ -24,9 +30,18 @@ img {
     border-radius: 16px;
 }
 
+main {
+    padding: 24px;
+}
+
 h1 {
     line-height: 140%;
     font-size: 40px;
+
+}
+
+#margin {
+    margin-bottom: 24px;
 }
 
 h2 {
@@ -36,9 +51,15 @@ h2 {
 h1,
 h2 {
     color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
 }
 
 p,
 ul {
     color: #573A37;
+}
+
+ul {
+    padding-left: 24px;
 }
